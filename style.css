@@ -1,0 +1,80 @@
+@keyframes Ftext_in{
+        0%{transform: scale(300%);}
+        50%{transform: scale(50%);}
+        100%{transform: scale(100%);}
+    }
+
+
+html{
+    scrollbar-width: none;
+}
+body{
+    background: radial-gradient(circle at 50%, #2e0c3b, #22022b);
+    position: relative;
+    padding: 0 auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+    min-height: 2000px;
+}
+.fronter{
+    background-color: #5a2380;
+    box-shadow: 0px 5px 10px rgba(184, 132, 243, 0.281);
+    width: 100%;
+    min-height: 40px;
+}
+.fronter_text{
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 3px 10px black;
+    font-size: 23px;
+    animation: Ftext_in 0.4s ease-in-out 5ms;
+}
+.bottom{
+    background-color: #5a2380;
+    box-shadow: 0px -8px 10px rgba(184, 132, 243, 0.281);
+    width: 100%;
+    min-height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.copyright_text{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+.grid-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    gap: 50px;
+    padding: 10px;
+}
+
+.box {
+    height: 300px;
+    width: 250px;
+    background-color: #410d58;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+        /* Hover and active animations */
+.box:hover {
+    background-color: #b05bca;
+    transform: translateY(-10px);
+}
+
+.box:active {
+    transform: translateY(0);
+}

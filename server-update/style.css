@@ -1,3 +1,7 @@
 body{
     background: radial-gradient(#3f2157, #1b042e);
 }
+.fronter{
+    width: 100%;
+    min-height: 50px;
+}

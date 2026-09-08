@@ -10,5 +10,7 @@ fronter_text.addEventListener('mouseleave', () => {
 
 
 function handleClick(boxName) {
-    alert("You clicked " + boxName + "!");
+    if(boxName == "Box 1"){
+      window.location.href = "/server-updates";
+    }
 }

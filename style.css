@@ -56,8 +56,8 @@ body{
     padding: 10px;
 }
 
-.box {
-    height: 300px;
+.site-update-box {
+    height: 180px;
     width: 250px;
     background-color: #410d58;
     color: white;
@@ -70,11 +70,11 @@ body{
 }
 
         /* Hover and active animations */
-.box:hover {
+.site-update-box:hover {
     background-color: #b05bca;
     transform: translateY(-10px);
 }
 
-.box:active {
+.site-update-box:active {
     transform: translateY(0);
 }

@@ -9,8 +9,8 @@ fronter_text.addEventListener('mouseleave', () => {
 });
 
 
-function handleClick(boxName) {
-    if(boxName == "Box 1"){
-      window.location.href = "/server-update";
+function handleClick(GoTo) {
+    if(GoTo == "Go-to-site-updates"){
+      window.location.href = "/site-update";
     }
 }
